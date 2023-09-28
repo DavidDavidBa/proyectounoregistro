@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header, main {
+  overflow: hidden;
+  width: 98%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo a, .PQP {
+  width: 90%;
+  margin: 0.2em;
+  padding: 0.4em;
+}
+.titulo {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo H1 {
+  width: 100%;
+  font-family: monospace;
+  color: black;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+}
+form {
+  width: 90%;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  padding: 0.4em 2em 0.4em 2em;
+  margin: 0.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+form .correo, .candado {
+  flex-direction: column;
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form label, input {
+  width: 100%;
+  font-family: monospace;
+  color: black;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+}
+form .candado ul {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form .candado ul li {
+  width: 100%;
+  font-family: monospace;
+  color: black;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .candado ul li input.mostrar, form .candado ul li input.recordar {
+  width: 1em;
+  margin: 0.2em 1em 0.2em 0.2em;
+}
+font {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 100%;
+}
+form .candado ul li a {
+  width: 100%;
+  color: #0e00cb;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 100%;
+  text-decoration: none;
+}
+form .conectar {
+  flex-direction: column;
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5e8;
+  border: 2px solid rgba(128, 128, 128, 0.6);
+}
+form .conectar .mail, .google, .facebook {
+  flex-direction: column;
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .conectar .mail .iemail {
+  flex-direction: column;
+  width: 90%;
+  font-family: monospace;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  border-radius: 1.6em;
+  color: white;
+  background: #279f27e0;
+  border: 0.2em solid rgba(0, 0, 0, 0.3);
+}
+form .conectar .mail .iemail:hover {
+  background: #ed58ef;
+}
+form .conectar .google .igoogle {
+  flex-direction: column;
+  width: 90%;
+  font-family: monospace;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  border-radius: 1.6em;
+  color: rgb(109, 107, 107);
+  background: #fff;
+  border: 0.2em solid rgba(0, 0, 0, 0.3);
+}
+form .conectar .google .igoogle:hover {
+  background: #ed58ef;
+}
+form .conectar .facebook .ifacebook {
+  flex-direction: column;
+  width: 90%;
+  font-family: monospace;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  border-radius: 1.6em;
+  color: white;
+  background: #64bde0;;
+  border: 0.2em solid rgba(0, 0, 0, 0.3);
+}
+form .conectar .facebook .ifacebook:hover {
+  background: #ed58ef;
+}
+form .crear {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .crear ul {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .crear ul li {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .crear ul li a {
+  width: 100%;
+  font-family: monospace;
+  color: #0e00cb;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  text-decoration: none;
+}
+footer {
+  width: 98%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.1em solid rgba(128, 128, 128, 0.5);
+}
+footer cite {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  font-family: monospace;
+  border: 0.2em solid rgba(0, 0, 0, 0.3);
+  color: black;
+  background-color: #e5e5e573;
+  flex-direction: column;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, -0.9), rgba(0, 0, 0, -0.9)), url(./IMAGENES/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .titulo, form {
+  width: 80%;
+  }
+  .logo a, .PQP {
+    width: 85%;
+  }
+  .titulo H1 {
+  font-size: 140%;
+  }
+  form label, input {
+    width: 80%;
+    font-size: 120%;
+  }
+  font, form .candado ul li a, form .crear ul li a {
+    font-size: 120%;
+  }
+  form .candado ul li, form .crear ul li {
+    width: 80%;
+  }
+  form .conectar .mail .iemail, form .conectar .google .igoogle, form .conectar .facebook .ifacebook {
+    width: 80%;
+    font-size: 115%;
+  }
+  footer {
+    flex-direction: row;
+  }
+  footer cite {
+    flex-direction: row;
+    font-size: 1em;
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+  .titulo, form, .logo a, .PQP {
+    width: 80%;
+  }
+  .titulo H1 {
+  font-size: 180%;
+  }
+  form label, input {
+    width: 50%;
+    font-size: 140%;
+  }
+  font, form .candado ul li a, form .crear ul li a {
+    font-size: 140%;
+  }
+  form .candado ul li, form .crear ul li {
+    width: 50%;
+  }
+  form .conectar {
+    flex-direction: row;
+  }
+  form .conectar .mail, .google, .facebook {
+    width: 33%;
+  }
+  form .conectar .mail .iemail,form .conectar .facebook .ifacebook, form .conectar .google .igoogle {
+    width: 100%;
+    font-size: 110%;
+  }
+  footer {
+    flex-direction: row;
+  }
+  footer cite {
+    flex-direction: row;
+    font-size: 1.2em;
+  }
+}
